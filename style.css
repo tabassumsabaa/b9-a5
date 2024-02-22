@@ -1,0 +1,127 @@
+.banner{
+    text-align: center;
+    align-items: center;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    color: white;
+    padding-top: 150px;
+    border-radius: 20px;
+    margin-left: 50px;
+    }
+    .banner2{
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    .card1{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        width: 300px;
+        height: 100px;
+        border: 1px solid black;
+        padding: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: none;
+        border-radius: 10px;
+        background-color:white;
+    }
+    .card3{
+        width: 500px;
+        height: 220px;
+        border: 1px solid black;
+        display: flex;
+       padding: 20px;
+        justify-content: space-between;
+        border: none;
+        border-radius:25px;
+       }
+       .card-body1{
+        display: flex;    
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .number{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .number1{
+        margin-left: 20px;
+    }
+    .section1{
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        height: 200px;
+        margin-left: 281px;
+        margin-top: -115px;
+    }
+    .section2{
+        width: 1100px; 
+        margin: 0 auto; 
+        
+    }
+    .card-body1{
+        display: flex;    
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .div1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .main-section{
+        width: 1100px;
+        height: 418px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .input1{
+        width: 808px;
+        justify-content: space-between;
+        display: flex;
+        
+    }
+    .input2{
+        width: 808px;
+        height: 258px;
+       
+        background-color: #F7F8F8;
+        padding: 20px;
+        margin-top: 30px;
+        border-radius: 20px;
+        border: none;
+        
+    }
+    .main2-section{
+        width: 1100px;
+        height: 1056px;
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    }
+    .staring{
+        background-color: #2d2d2db3;
+        height: 45px;
+        width: 52px;
+        border-radius: 10px;
+       justify-content: center;
+        margin-left: 520px;
+       margin-top: 50px;
+       justify-items: center;
+    }
+    .btn{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    
+    .section5{
+        width: 433px;
+        height: 836px;
+          border-radius: 10px;
+        margin-left: 60.5%;
+        margin-top: -900px;
+      }
