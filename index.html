@@ -9,10 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="home-section">
-       
-        <section >
-            <section  style="width: 1100px; margin: 0 auto; margin-top: 50px; ">
+    <header class="home-section">       
+        <section  style="width: 1100px; margin: 0 auto; margin-top: 50px; ">
               <div class="navbar bg-base-100">
                   <div class="navbar-start">
                     <div class="dropdown">
@@ -40,7 +38,8 @@
                     <a style=" color:#1DD100 ; border: 1px solid #1DD100" class="btn  bg-[#1DD1001A]">Bus <span><img src="images/bus-icon.png" alt=""></span></a>
                   </div>
                 </div>
-             </section>
+    </header>            
+        </section>
        <section id="home-screen" class="container">
         <section  class="banner2 flex flex-col gap-10 ">
           <div class="banner ">
@@ -108,14 +107,14 @@
          <button style="margin-left: 500px; margin-top: 60px; color: #1DD100;" class="button2">See All Offers</button>
       </section>
 
-        <main style="height: 1700px; width: full; background-color: #F7F8F8; border-top: 2px solid #1DD100 ; border-radius: 100px; margin-top: 80px; ">
+        <main style=" height: 800px; width: 70%; margin: auto; background-color: #F7F8F8; border-top: 2px solid #1DD100 ; border-radius: 100px; margin-top: 80px; ">
           <div style="padding-top: 50px;"  class="div1">
              <h1 style="font-size: 40px; font-weight: bold;">P.H Paribahan</h1>
              <p style="margin-top: 20px;"> Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined </p>
           </div>
         <section style="display: flex; background-color: #FFFFFF; margin-top: 50px;" class="main-section container">
             <div style="padding: 30px;">
-                <div class="input1">
+                <div class="input1 " style="display: flex; justify-content: space-between;">
                    <!--div1-->
                   <div style="display: flex; width: 394; height: 69;">
                       <img style="width: 58px; height: 38px;" src="images/bus-logo.png" alt="">
@@ -156,8 +155,82 @@
                 <p>Per Seat</p>
             </div>
         </section>
+       </main> 
 
-    </header>
+        <section style=" width: 70%; margin: auto; background-color: #F7F8F8; display:flex; justify-content:space-between; align-items: start; margin-top: 24px; border-radius: 50px;">
+            <div  style="padding-top: 50px; padding-left: 20px;">
+              <h1 style="font-size: 40px; font-weight: semibold;">Select Your Seat</h1>
+              <hr style=" margin-top: 10px; color: darkgrey; width: 100%;" >
+              <div style="display: flex; justify-content: space-between;">
+                <img src="/images/seat-gray.png" alt="" >
+                <p style=" padding: 10px;">Avaiable</p>
+                <img src="/images/seat-green-filled.png" alt="" >
+                <p  style=" padding: 10px;">Selected</p>      
+              </div>
+              <hr style=" margin-top: 10px; color: darkgrey; width: 100%; margin-bottom: 20px;" >
+              <div>
+                <div>
+                  <table style="display: flex; width:100%;">
+                    <tr style="gap: 10px; margin-left: 10px; justify-content: space-between;">
+                      <td style="padding: 20px;">A</td>
+                      <td style="padding: 20px;">A1</td>
+                      <td style="padding: 20px;">A2</td>
+                      <td style="padding: 20px;">A3</td>
+                      <td style="padding: 20px;">A4</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 20px;">B</td>
+                      <td style="padding: 20px;">B1</td>
+                      <td style="padding: 20px;">B2</td>
+                      <td style="padding: 20px;">B3</td>
+                      <td style="padding: 20px;">B4</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 20px;">C</td>
+                      <td style="padding: 20px;">C1</td>
+                      <td style="padding: 20px;">C2</td>
+                      <td style="padding: 20px;">C3</td>
+                      <td style="padding: 20px;">C4</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 20px;">D</td>
+                      <td style="padding: 20px;">D1</td>
+                      <td style="padding: 20px;">D2</td>
+                      <td style="padding: 20px;">D3</td>
+                      <td style="padding: 20px;">D4</td>
+                    </tr>
+                    <tr>
+                      <td style="padding: 20px;">E</td>
+                      <td style="padding: 20px;">E1</td>
+                      <td style="padding: 20px;">E2</td>
+                      <td style="padding: 20px;">E3</td>
+                      <td style="padding: 20px;">E4</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+            <div  style="padding-top: 50px; padding-left: 20px;">
+              <h1 style="font-size: 40px; font-weight: semibold;">Select Your Seat</h1>
+              <hr style=" margin-top: 10px; margin-bottom: 10px; color: darkgrey; width: 100%;" >
+              <form  action="" target="_blank ">
+                <label for="fname">Passenger Name*:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Passenger Email ID*:</label><br>
+                <input type="email" id="lname" name="lname" value=""><br><br>
+                <label for="lname">Passenger Contact*:</label><br>
+                <input type="number" id="lname" name="lname" value=""><br><br>
+                <button style="padding: 10px; background-color: #1DD100; width: 100%; border-radius: 20px;">Next</button>
+              </form> 
+              
+            </div>
+      </section> 
+
+       
+
+
+      
 
 
     <script src="travel.js"></script>
